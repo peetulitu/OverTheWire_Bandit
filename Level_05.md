@@ -5,9 +5,8 @@ The password for the next level is stored in a file somewhere under the inhere d
 - Not executable
 
 ## Approach
-This time we got a similar challenge with more complexity, but we followed the same approach as before, first we broke down the
-parameters we need our file to match and we construct our command following these, adding a flag for each characteristic we are
-looking for.
+This time we got a similar challenge with more complexity, I followed the same approach as before, first I broke down the
+parameters I need the file to match and I constructed my command following these, adding a flag for each characteristic I am looking for.
 
 Breaking down the flags:
 - `-type f` -> Regular files only.
@@ -21,4 +20,4 @@ find /home/bandit5/inhere -type f -size 1033c ! -executable -readable
 ```
 
 ## Takeaway
-This level was very useful to learn more about flags and how to combine them to curate the command you need.
+This level was very useful to learn more about flags and how to combine them to curate the command I need.
