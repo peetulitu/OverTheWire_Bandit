@@ -1,5 +1,5 @@
 ## Objective
-The password for the next level is stored in a file called - located in the home directory
+The password for the next level is stored in a file called - located in the home directory.
 
 ## Approach
 This second level was quite similar to the first one, I used `ls` to get a look at the home directory, then used `cat` to read the
