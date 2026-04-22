@@ -3,7 +3,7 @@ The password for the next level is stored in the only human-readable file in the
 up, try the “reset” command.
 
 ## Approach
-This level was a bit trickier, here we needed to find a file that matched a series of parameters, to do so we used the `find` command
+This level was a bit trickier, here I needed to find a file that matched a series of parameters, to do so I used the `find` command
 with the flags that it required and piped the results through `xargs` and `grep` helping narrow down the search results.
 
 The command chain works like this:
