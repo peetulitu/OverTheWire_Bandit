@@ -4,13 +4,12 @@ bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 22
 
 ## Approach
 The approach to this level was quite straight forward, because I know the name of the file and the directory where it is located, 
-I used the cat command to read the files contents.
+I used the `cat` command to read the files contents.
 
-## Command Used
+## Commands Used
 ```bash
 cat ~/readme
 ```
   
 ## Takeaway
-This level shows the basics of navigation and reading files directly from the terminal, learning to use the ls and cat commands 
-learning that ~ is the home directory of the current user. And learning to connect via SSH for the first time.
+This level shows the basics of navigation and reading files directly from the terminal, learning to use the `ls` and `cat` commands, that `~` is the home directory of the current user. And learning to connect via SSH for the first time.
