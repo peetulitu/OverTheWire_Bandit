@@ -15,10 +15,8 @@ ssh bandit18@bandit.labs.overthewire.org -p2220 /bin/sh
 A few other approaches that would have worked:
 
 ```bash
-# Run cat directly as the remote command — no shell needed
 ssh bandit18@bandit.labs.overthewire.org -p2220 cat readme
 
-# Use bash but skip the startup files
 ssh bandit18@bandit.labs.overthewire.org -p2220 -t bash --norc
 ```
 
